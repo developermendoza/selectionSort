@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selection Sort</title>
+  </head>
+  <body>
+    <h1>Selection Sort</h1>
+    <p>
+      Selection Sort is another simple sorting algorithm that divides the input
+      list into two parts: the sorted part, which starts as an empty list, and
+      the unsorted part. The Algorithm repeatedly selects the smallest (or
+      largest, depending on sorting order) element from the unsortedpart and
+      swaps it with the first unsorted element. The sorted part grows, and the
+      usorted part shrinks until the entire list is sorted.
+    </p>
+    <p>Here's a step-by-step explanation of the Selection Sort algorithm:</p>
+    <ol>
+      <li>
+        Assume the first element is the minimum (or maximum, depending on
+        sorting order)
+      </li>
+      <li>
+        Iterate through the unsorted part of the list to find the actual minimum
+        (or maximum) element
+      </li>
+      <li>
+        Swap the found minimum (or maximum) element with the first element of
+        the unsorted part.
+      </li>
+      <li>
+        Expand the sorted part by one element and reduce the unsorted part by
+        one element.
+      </li>
+      <li>Repeat steps 1-4 until list is sorted</li>
+    </ol>
+    <script src="main.js"></script>
+  </body>
+</html>
